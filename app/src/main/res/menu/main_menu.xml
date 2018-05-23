@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/about" android:title="@string/about_long" android:titleCondensed="@string/about_short"/>
+    <item android:id="@+id/help" android:title="@string/help_long" android:titleCondensed="@string/help_short"/>
+    <item android:id="@+id/hide_viewed" android:title="@string/hide_episode_menu_option_text" android:titleCondensed="@string/hide_episode_menu_option_short_text" android:checkable="true"/>
+    <item android:id="@+id/remove_viewed" android:title="@string/remove_episode_menu_option_text" android:titleCondensed="@string/remove_episode_menu_option_short_text" android:checkable="true"/>
+</menu>

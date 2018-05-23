@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/category_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="212dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|left"
+        android:background="@drawable/category_background_rectangle">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/episode_filtering_title"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_list" />
+
+    </LinearLayout>
+
+</FrameLayout>

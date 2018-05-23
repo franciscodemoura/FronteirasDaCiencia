@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/category_fragment_animation_time"
+        android:propertyName="x"
+        android:valueFrom="0"
+        android:valueTo="@integer/category_fragment_animation_x_hiden_position"
+        android:valueType="floatType"/>
+
+</set>

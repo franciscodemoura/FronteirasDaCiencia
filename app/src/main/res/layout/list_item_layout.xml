@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_button"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:src="@android:drawable/ic_media_play"
+        android:contentDescription="@string/play_button_description"
+        android:scaleType="center" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.7"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewed_check"
+            android:layout_gravity="center"
+            android:src="@drawable/checked"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/checked_image"
+            android:adjustViewBounds="false" />
+
+        <TextView
+            android:text="@string/default_episode_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/episode_number"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+    </FrameLayout>
+
+    <TextView
+        android:text="@string/default_episode_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/episode_title"
+        android:layout_weight="6"
+        android:gravity="left"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"/>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_button"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:contentDescription="@string/action_button_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/download" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+
+    </FrameLayout>
+</LinearLayout>

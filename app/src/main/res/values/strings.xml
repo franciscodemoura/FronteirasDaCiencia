@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Fronteiras da Ciência</string>
+    <string name="episode_guide_filename">EpisodeGuide.xml</string>
+    <string name="episode_guide_temp_filename">EpisodeGuideTemp.xml</string>
+    <string name="episode_guide_URL">http://www.if.ufrgs.br/~arenzon/fronteirasdaciencia.xml</string>
+    <string name="play_button_description">Botão de play</string>
+    <string name="default_episode_number">999º</string>
+    <string name="default_episode_title">Título</string>
+    <string name="action_button_description">Botão de ações</string>
+    <string name="notification_downloading_text">"Baixando"</string>
+    <string name="fdac_directory">fdac</string>
+    <string name="fdac_viewed_preference_file_name">viewed_episodes</string>
+    <string name="fdac_viewed_episode_prefix">episode_</string>
+    <string name="fdac_filename_prefix">fdac_episode_</string>
+    <string name="notification_cancel_download_text">Cancelar</string>
+    <string name="splash_screen_description">splash screen</string>
+    <string name="delete_downloaded_episode_confirmation_message">Remover episódio baixado?</string>
+    <string name="episode_fragment_or_removal_text">"Episódio"</string>
+    <string name="abort_episode_removal_text">Manter</string>
+    <string name="episode_removal_confirmation_text">Remover</string>
+    <string name="about_long">Sobre o Fronteiras</string>
+    <string name="about_short">Sobre</string>
+    <string name="help_long">Como utilizar o aplicativo</string>
+    <string name="help_short">Como usar</string>
+    <string name="checked_image">Checked image</string>
+    <string name="help_screen">Help image</string>
+    <string name="episode_description_fragment_play_button_text_description">Botão reproduzir</string>
+    <string name="about_background_image">about background image</string>
+    <string name="preferences_name">preferences</string>
+    <string name="hide_viewed_preference_tag">hide_viewed</string>
+    <string name="hide_episode_menu_option_text">Ocultar episódios ouvidos</string>
+    <string name="hide_episode_menu_option_short_text">Ocultar ouvidos</string>
+    <string name="remove_episode_menu_option_text">Remover episódios ouvidos</string>
+    <string name="remove_episode_menu_option_short_text">Remover ouvidos</string>
+    <string name="remove_viewed_preference_tag">remove_viewed</string>
+    <string name="remove_viewed_episodes_dialog_message">Os downloads existentes de episódios marcados como ouvidos serão removidos e, quando um episódio for marcado como ouvido, seu download, se houver, será removido.</string>
+    <string name="remove_viewed_episodes_dialog_title">Remover episódios ouvidos?</string>
+    <string name="remove_viewed_episodes_dialog_positive_button">Confirmar</string>
+    <string name="remove_viewed_episodes_dialog_negative_button">Cancelar</string>
+    <string name="episode_play_media_button_description">episode play media button</string>
+    <string name="play_error_message_audio">Falha na reprodução do áudio. O canal de som pode estar ocupado por outro aplicativo.</string>
+    <string name="play_error_message_net">Falha na reprodução do áudio. Pode ter havido falha na rede.</string>
+    <string name="total_time_string">Total</string>
+    <string name="player_notification_text">"FdaC - episódio "</string>
+    <string name="episode_filtering_title">Filtrar episódios</string>
+    <string name="category_arrow_description">category_arrow</string>
+    <string name="all_episodes_category_string">Todos</string>
+    <string name="episode_category_string_tag">episode_category_tag</string>
+    <string name="canceling_string">Cancelando</string>
+    <string name="seconds_rewinded_string">-15 seg.</string>
+    <plurals name="episode_plural_string">
+        <item quantity="one">episódio</item>
+        <item quantity="other">episódios</item>
+    </plurals>
+    <plurals name="downloads_failed_notification_text">
+        <item quantity="one">falhou</item>
+        <item quantity="other">falharam</item>
+    </plurals>
+    <plurals name="downloads_plural_string">
+        <item quantity="one">download</item>
+        <item quantity="other">downloads</item>
+    </plurals>
+</resources>
